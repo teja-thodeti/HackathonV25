@@ -1,0 +1,22 @@
+/* Inventory Tricks Section */
+.inventory-tips {
+    background: #f5f5dc; /* Light Beige - Food-Related Color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.inventory-tips h2 {
+    text-align: center;
+    color: #4caf50; /* Green */
+}
+
+.inventory-tips ul {
+    list-style-type: square;
+    padding: 20px;
+}
+
+.inventory-tips ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}

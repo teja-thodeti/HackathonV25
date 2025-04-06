@@ -1,0 +1,86 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* About Page Background (Food-Themed) */
+.about-page {
+    background: #FFFAE5; /* Light Yellowish (Food-Related) */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #D2691E; /* Chocolate Brown */
+    padding: 10px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.login-btn {
+    background: white;
+    color: #D2691E;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* About Container */
+.about-container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-container h1 {
+    color: #8B0000; /* Dark Red (Food-Themed) */
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #D2691E;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
